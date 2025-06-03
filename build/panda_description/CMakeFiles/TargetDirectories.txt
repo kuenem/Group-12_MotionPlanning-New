@@ -1,0 +1,2 @@
+/home/UMRobotics/new_ws/build/panda_description/CMakeFiles/edit_cache.dir
+/home/UMRobotics/new_ws/build/panda_description/CMakeFiles/rebuild_cache.dir

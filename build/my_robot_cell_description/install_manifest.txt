@@ -1,0 +1,15 @@
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/ament_index/resource_index/package_run_dependencies/my_robot_cell_description
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/ament_index/resource_index/parent_prefix_path/my_robot_cell_description
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/environment/ament_prefix_path.sh
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/environment/ament_prefix_path.dsv
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/environment/path.sh
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/environment/path.dsv
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.bash
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.sh
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.zsh
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/local_setup.dsv
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/package.dsv
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/ament_index/resource_index/packages/my_robot_cell_description
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/cmake/my_robot_cell_descriptionConfig.cmake
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/cmake/my_robot_cell_descriptionConfig-version.cmake
+/home/UMRobotics/new_ws/install/my_robot_cell_description/share/my_robot_cell_description/package.xml
