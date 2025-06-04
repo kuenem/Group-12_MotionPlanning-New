@@ -2,6 +2,7 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.hpp>
+#include "controller_manager_msgs/srv/switch_controller.hpp"
 
 int main(int argc, char * argv[])
 {
@@ -9,6 +10,11 @@ int main(int argc, char * argv[])
     std::cout << "Starting============================================================================================1" << std::endl;
   // Initialize ROS and create the Node
   rclcpp::init(argc, argv);
+
+  // Spin up a SingleThreadedExecutor for MoveItVisualTools to interact with ROS
+  rclcpp::executors::SingleThreadedExecutor executor;
+  auto spinner = std::thread([&executor]()
+                             { executor.spin(); });
 
 
     std::cout << "ROSinitialised============================================================================================1" << std::endl;
@@ -98,7 +104,7 @@ int main(int argc, char * argv[])
 
 
 
-rclcpp::sleep_for(std::chrono::seconds(10));  // Wait for state initialization
+rclcpp::sleep_for(std::chrono::seconds(5));  // Wait for state initialization
 
     std::cout << "Waited10Sec============================================================================================1" << std::endl;
 
@@ -115,22 +121,48 @@ rclcpp::sleep_for(std::chrono::seconds(10));  // Wait for state initialization
     std::cout << "CreatedMoveItInterface============================================================================================1" << std::endl;
 
       // Configure planner parameters
+  move_group_interface.setPoseReferenceFrame("base");
   move_group_interface.setPlanningTime(10.0);
   std::cout << "setPlanningTime++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" << std::endl;
-  move_group_interface.setNumPlanningAttempts(5);
+  move_group_interface.setNumPlanningAttempts(100);
   std::cout << "setNumPlanningAttemps++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" << std::endl;
   move_group_interface.setPlannerId("PTP");
   std::cout << "setPlannerId++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" << std::endl;
 
-// // Set a target Pose
-// auto const target_pose = []{
-//   geometry_msgs::msg::Pose msg;
-//   msg.orientation.w = 1.0;
-//   msg.position.x = 0.28;
-//   msg.position.y = -0.2;
-//   msg.position.z = 0.5;
-//   return msg;
-// }();
+  // Add after move_group_interface initialization
+  move_group_interface.setMaxVelocityScalingFactor(0.5);
+  move_group_interface.setMaxAccelerationScalingFactor(0.5);
+
+  std::cout << "Activating the Conroller============================================================================================1" << std::endl;
+// Activate the controller
+auto controller_manager = node->create_client<controller_manager_msgs::srv::SwitchController>(
+    "/controller_manager/switch_controller");
+
+auto request = std::make_shared<controller_manager_msgs::srv::SwitchController::Request>();
+request->activate_controllers = {"scaled_joint_trajectory_controller"};
+request->strictness = request->STRICT;
+
+if (!controller_manager->wait_for_service(std::chrono::seconds(2))) {
+    RCLCPP_ERROR(logger, "Controller manager service not available");
+} else {
+    auto result = controller_manager->async_send_request(request);
+    if (rclcpp::spin_until_future_complete(node, result) != rclcpp::FutureReturnCode::SUCCESS) {
+        RCLCPP_ERROR(logger, "Failed to activate controller");
+    }
+}
+
+// Add this after activating the controller
+rclcpp::sleep_for(std::chrono::seconds(1));  // Allow time for activation
+// if (!move_group_interface.getControllerName().empty()) {
+//     RCLCPP_INFO(logger, "Controller is active: %s", 
+//                 move_group_interface.getControllerName().c_str());
+// } else {
+//     RCLCPP_ERROR(logger, "No active controller found!");
+//     rclcpp::shutdown();
+//     return 1;
+// }
+
+    std::cout << "ControllerActivated============================================================================================1" << std::endl;
 
 auto const target_pose = []{
   geometry_msgs::msg::Pose msg;

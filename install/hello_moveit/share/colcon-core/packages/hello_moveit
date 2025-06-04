@@ -1,1 +1,1 @@
-moveit_kinematics:moveit_ros_planning_interface:rclcpp
+controller_manager_msgs:moveit_kinematics:moveit_ros_planning_interface:rclcpp

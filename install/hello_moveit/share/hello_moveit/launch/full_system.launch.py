@@ -23,7 +23,8 @@ def generate_launch_description():
             'ur_type': 'ur5e',
             'robot_ip': '192.168.1.5',
             'launch_rviz': 'false',
-            'calibration_controller': '/home/new_ws/src/hello_moveit/config/my_robot_calibration.yaml'
+            'calibration_controller': os.path.join(hello_moveit_dir, 'config', 'my_robot_calibration.yaml'),
+            'initial_joint_controller': 'scaled_joint_trajectory_controller' 
         }.items()
     )
     
@@ -34,7 +35,7 @@ def generate_launch_description():
         ),
         launch_arguments={
             'ur_type': 'ur5e',
-            'launch_rviz': 'true',
+            'launch_rviz': 'false',
             'kinematics_config': kinematics_config  # Inject kinematics config
         }.items()
     )

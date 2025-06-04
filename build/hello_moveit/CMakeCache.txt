@@ -329,7 +329,7 @@ SITE:STRING=legion02
 TinyXML2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tinyxml2
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/jazzy/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/jazzy/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/jazzy/share/action_msgs/cmake
@@ -483,6 +483,9 @@ console_bridge_DIR:PATH=/usr/lib/x86_64-linux-gnu/console_bridge/cmake
 
 //The directory containing a CMake configuration file for console_bridge_vendor.
 console_bridge_vendor_DIR:PATH=/opt/ros/jazzy/share/console_bridge_vendor/cmake
+
+//The directory containing a CMake configuration file for controller_manager_msgs.
+controller_manager_msgs_DIR:PATH=/opt/ros/jazzy/share/controller_manager_msgs/cmake
 
 //The directory containing a CMake configuration file for eigen3_cmake_module.
 eigen3_cmake_module_DIR:PATH=/opt/ros/jazzy/share/eigen3_cmake_module/cmake

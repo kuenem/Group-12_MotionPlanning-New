@@ -1275,4 +1275,10 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface_traits.hpp \
- /home/UMRobotics/new_ws/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit_move_group_interface_export.h
+ /home/UMRobotics/new_ws/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit_move_group_interface_export.h \
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp \
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp \
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp \
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp \
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.hpp \
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

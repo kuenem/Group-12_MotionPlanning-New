@@ -1,0 +1,18 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:13:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ was not declared in this scope
+   13 |   auto spinner = std::thread([&[01;31m[Kexecutor[m[K]()
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:[m[K In lambda function:
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:14:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ is not captured
+   14 |                              { [01;31m[Kexecutor[m[K.spin(); });
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:13:40:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   13 |   auto spinner = std::thread([&executor[01;36m[K][m[K()
+      |                                        [01;36m[K^[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:13:32:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>executor[m[K’ declared here
+   13 |   auto spinner = std::thread([&[01;36m[Kexecutor[m[K]()
+      |                                [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

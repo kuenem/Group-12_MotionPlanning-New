@@ -169,6 +169,12 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.hpp
+ /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp
  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h
  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h
  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h
