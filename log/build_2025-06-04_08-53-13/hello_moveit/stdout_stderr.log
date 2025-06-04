@@ -1,0 +1,12 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:39:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic[m[K’ was not declared in this scope
+   39 |     for (const auto& [name, types] : [01;31m[Ktopic[m[K) {
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:67:71:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst double[int][m[K’ for array subscript
+   67 |                 << (*current_state->getJointPositions(name))[01;31m[K[[m[K0] << " rad" << std::endl;
+      |                                                             [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

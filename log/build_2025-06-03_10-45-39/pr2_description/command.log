@@ -1,0 +1,4 @@
+Invoking command in '/home/UMRobotics/new_ws/build/pr2_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/UMRobotics/new_ws/src/moveit_resources/pr2_description -DCMAKE_INSTALL_PREFIX=/home/UMRobotics/new_ws/install/pr2_description
+Invoked command in '/home/UMRobotics/new_ws/build/pr2_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/UMRobotics/new_ws/src/moveit_resources/pr2_description -DCMAKE_INSTALL_PREFIX=/home/UMRobotics/new_ws/install/pr2_description
+Invoking command in '/home/UMRobotics/new_ws/build/pr2_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/pr2_description -- -j16 -l16
+Invoked command in '/home/UMRobotics/new_ws/build/pr2_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/pr2_description -- -j16 -l16

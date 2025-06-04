@@ -1,0 +1,18 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:183:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  183 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:55:86:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   55 | :chrono::steady_clock::now() - start_time < std::chrono::seconds(20)) [01;36m[K{[m[K
+      |                                                                       [01;36m[K^[m[K
+
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:183:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  183 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:7:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    7 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:12:11:[m[K [01;31m[Kerror: [m[K‘[01m[KAsyncSpinner[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   12 |   rclcpp::[01;31m[KAsyncSpinner[m[K spinner(1); // Use a single thread for the spinner
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/hello_moveit.cpp:13:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kspinner[m[K’ was not declared in this scope
+   13 |   [01;31m[Kspinner[m[K.start();
+      |   [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

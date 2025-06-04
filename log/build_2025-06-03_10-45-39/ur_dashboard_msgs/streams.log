@@ -1,0 +1,703 @@
+[0.008s] Invoking command in '/home/UMRobotics/new_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/new_ws/install/moveit_configs_utils:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/UMRobotics/new_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/UMRobotics/new_ws/install/ur_dashboard_msgs
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.084s] -- The CXX compiler identification is GNU 13.3.0
+[0.096s] -- Detecting C compiler ABI info
+[0.159s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.165s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.250s] -- Detecting CXX compile features
+[0.251s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.397s] -- Found Python3: /home/UMRobotics/.local/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.503s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.644s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.650s] -- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)
+[1.157s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.872s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.964s] -- Found PythonExtra: /home/UMRobotics/.local/bin/python3  
+[2.297s] -- Found Python3: /home/UMRobotics/.local/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.335s] -- Configuring done (2.3s)
+[2.374s] -- Generating done (0.0s)
+[2.382s] -- Build files have been written to: /home/UMRobotics/new_ws/build/ur_dashboard_msgs
+[2.389s] Invoked command in '/home/UMRobotics/new_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/new_ws/install/moveit_configs_utils:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/UMRobotics/new_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/UMRobotics/new_ws/install/ur_dashboard_msgs
+[2.390s] Invoking command in '/home/UMRobotics/new_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/new_ws/install/moveit_configs_utils:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/ur_dashboard_msgs -- -j16 -l16
+[2.434s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.441s] [  0%] Built target ament_cmake_python_copy_ur_dashboard_msgs
+[2.643s] running egg_info
+[2.644s] creating ur_dashboard_msgs.egg-info
+[2.664s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[2.664s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[2.664s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[2.664s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[2.726s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[2.727s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[2.746s] [  0%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[2.767s] [  0%] Built target ur_dashboard_msgs__rosidl_generator_type_description
+[2.778s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.787s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.731s] [  0%] Built target ur_dashboard_msgs__cpp
+[3.932s] [  0%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__description.c.o[0m
+[3.932s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__description.c.o[0m
+[3.932s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[3.932s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o[0m
+[3.932s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__description.c.o[0m
+[3.932s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[3.932s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o[0m
+[3.933s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[3.933s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o[0m
+[3.933s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__description.c.o[0m
+[3.933s] [  6%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o[0m
+[3.933s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[3.933s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[3.933s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__description.c.o[0m
+[3.936s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__description.c.o[0m
+[3.936s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o[0m
+[3.980s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[3.980s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o[0m
+[3.980s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__description.c.o[0m
+[3.986s] [ 13%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o[0m
+[3.988s] [ 14%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__description.c.o[0m
+[3.989s] [ 14%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[3.989s] [ 14%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o[0m
+[3.991s] [ 15%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[3.997s] [ 16%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__description.c.o[0m
+[3.997s] [ 16%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__description.c.o[0m
+[3.997s] [ 16%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o[0m
+[3.997s] [ 17%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[3.998s] [ 18%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o[0m
+[4.004s] [ 19%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[4.026s] [ 19%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__description.c.o[0m
+[4.031s] [ 20%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[4.031s] [ 20%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o[0m
+[4.040s] [ 22%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__description.c.o[0m
+[4.040s] [ 21%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o[0m
+[4.042s] [ 22%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[4.050s] [ 23%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__description.c.o[0m
+[4.050s] [ 24%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o[0m
+[4.050s] [ 24%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[4.058s] [ 24%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o[0m
+[4.058s] [ 25%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__description.c.o[0m
+[4.073s] [ 26%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[4.168s] [ 27%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so[0m
+[4.201s] [ 27%] Built target ur_dashboard_msgs__rosidl_generator_c
+[4.211s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.211s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.211s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.211s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.211s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.211s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.784s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[4.785s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[4.786s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[4.786s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[4.786s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[4.786s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[4.786s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[4.786s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[4.787s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[4.787s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[4.787s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[4.837s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[4.837s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[4.838s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[4.868s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[4.868s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[4.868s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[4.869s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[4.869s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[4.869s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[4.869s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[4.869s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[4.869s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[4.882s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[4.883s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[4.897s] [ 46%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so[0m
+[4.958s] [ 46%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[4.973s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[5.242s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[5.281s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[5.378s] [ 49%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[5.378s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[5.378s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[5.378s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[5.378s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[5.378s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[5.379s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[5.379s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[5.382s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[5.395s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[5.406s] [ 55%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[5.468s] [ 55%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[5.494s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[5.535s] [ 56%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[5.600s] [ 56%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[5.685s] [ 57%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[5.771s] [ 58%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[5.805s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[5.817s] [ 59%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[5.818s] [ 60%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[5.824s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[5.855s] [ 61%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[5.891s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[5.895s] [ 62%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[5.940s] [ 63%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[5.968s] [ 63%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[5.972s] [ 64%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[5.976s] [ 64%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[6.053s] [ 65%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.085s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[6.085s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[6.086s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[6.086s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[6.086s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[6.086s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[6.086s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[6.086s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[6.087s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[6.107s] [ 71%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[6.108s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[6.119s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[6.244s] [ 73%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[6.604s] [ 73%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[6.623s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[6.626s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[6.652s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[6.924s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[6.949s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[6.981s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[7.034s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[7.163s] [ 79%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.170s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[7.178s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[7.194s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[7.194s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[7.199s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[7.212s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[7.229s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[7.229s] [ 84%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[7.323s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[7.342s] [ 84%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[7.521s] [ 85%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[7.918s] [ 85%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.985s] [ 85%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[8.059s] [ 86%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.112s] [ 86%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[8.129s] [ 86%] Built target ur_dashboard_msgs
+[8.145s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.819s] [ 87%] Built target ur_dashboard_msgs__py
+[9.839s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[9.840s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[9.840s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[9.841s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[9.841s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[9.841s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[9.841s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[9.841s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[9.842s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[9.842s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[9.842s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[9.842s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[9.843s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[9.843s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[10.011s] [ 96%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_py.so[0m
+[10.047s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[10.066s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.066s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.066s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.216s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[10.217s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so[0m
+[10.217s] [100%] [32m[1mLinking C shared module rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[10.244s] [100%] Built target ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c
+[10.244s] [100%] Built target ur_dashboard_msgs_s__rosidl_typesupport_c
+[10.244s] [100%] Built target ur_dashboard_msgs_s__rosidl_typesupport_introspection_c
+[10.254s] Invoked command in '/home/UMRobotics/new_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/new_ws/install/moveit_configs_utils:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/ur_dashboard_msgs -- -j16 -l16
+[10.255s] Invoking command in '/home/UMRobotics/new_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/new_ws/install/moveit_configs_utils:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/UMRobotics/new_ws/build/ur_dashboard_msgs
+[10.262s] -- Install configuration: ""
+[10.262s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[10.262s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.json
+[10.262s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.json
+[10.262s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.json
+[10.262s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.json
+[10.262s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.json
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.json
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.json
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.json
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.json
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.json
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.json
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.json
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.json
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.json
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[10.263s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.c
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__description.c
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.c
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__description.c
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.c
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__description.c
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[10.264s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__description.c
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.c
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__description.c
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__description.c
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__description.c
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[10.265s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__description.c
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.c
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__description.c
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[10.266s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__description.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__description.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__description.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.c
+[10.267s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__description.c
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[10.268s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[10.269s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.c
+[10.269s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__description.c
+[10.269s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[10.269s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[10.269s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[10.269s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[10.269s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[10.269s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[10.269s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.270s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[10.270s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[10.270s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[10.270s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[10.271s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.271s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[10.271s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.271s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c
+[10.271s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[10.271s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c
+[10.271s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[10.272s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[10.272s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c
+[10.272s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[10.273s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.273s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[10.273s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[10.273s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[10.273s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[10.273s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[10.273s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.273s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[10.273s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[10.273s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[10.273s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[10.273s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[10.273s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[10.274s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[10.274s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.hpp
+[10.274s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[10.275s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[10.276s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[10.277s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[10.277s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[10.277s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[10.277s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[10.277s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[10.277s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/dds_fastrtps
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.278s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[10.278s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/dds_fastrtps
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[10.278s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/dds_fastrtps
+[10.278s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.279s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.279s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[10.279s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[10.279s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[10.279s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp
+[10.279s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[10.279s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp
+[10.279s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[10.279s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[10.279s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp
+[10.279s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[10.279s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[10.279s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.cpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.cpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[10.280s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[10.280s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[10.280s] -- Up-to-date: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[10.281s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[10.281s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp
+[10.281s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[10.281s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.281s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[10.282s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.3.1-py3.12.egg-info
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.3.1-py3.12.egg-info/PKG-INFO
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.3.1-py3.12.egg-info/SOURCES.txt
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.3.1-py3.12.egg-info/dependency_links.txt
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.3.1-py3.12.egg-info/top_level.txt
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg
+[10.282s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_state.py
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/__init__.py
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_load_s.c
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_popup_s.c
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_load.py
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[10.283s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_raw_request.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/__init__.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_popup.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/_set_mode.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/__init__.py
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[10.284s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.285s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so
+[10.285s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/__init__.py
+[10.340s] Listing '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/__init__.py'...
+[10.340s] Listing '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/__init__.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/_set_mode.py'...
+[10.340s] Listing '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/__init__.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_state.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_robot_mode.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_mode.py'...
+[10.340s] Listing '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/__init__.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_add_to_log.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_program_state.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_running.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_load.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_popup.py'...
+[10.340s] Compiling '/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_raw_request.py'...
+[10.343s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so
+[10.344s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[10.344s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so
+[10.344s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[10.344s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so
+[10.344s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so" to ""
+[10.344s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[10.345s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[10.345s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[10.345s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[10.345s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[10.345s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[10.345s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[10.346s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[10.347s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.348s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[10.349s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.350s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[10.350s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.350s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.350s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.350s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.350s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.350s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.350s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[10.350s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[10.350s] -- Installing: /home/UMRobotics/new_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[10.352s] Invoked command in '/home/UMRobotics/new_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/new_ws/install/moveit_configs_utils:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/UMRobotics/new_ws/build/ur_dashboard_msgs
