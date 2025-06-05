@@ -129,8 +129,7 @@ rclcpp::sleep_for(std::chrono::seconds(5));  // Wait for state initialization
   move_group_interface.setPlannerId("PTP");
   std::cout << "setPlannerId++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" << std::endl;
 
-  // Add after move_group_interface initialization
-  move_group_interface.setMaxVelocityScalingFactor(0.5);
+  move_group_interface.setMaxVelocityScalingFactor(0.2);
   move_group_interface.setMaxAccelerationScalingFactor(0.5);
 
   std::cout << "Activating the Conroller============================================================================================1" << std::endl;
@@ -164,14 +163,32 @@ rclcpp::sleep_for(std::chrono::seconds(1));  // Allow time for activation
 
     std::cout << "ControllerActivated============================================================================================1" << std::endl;
 
-auto const target_pose = []{
+auto const target_pose = []{     // Home pose
   geometry_msgs::msg::Pose msg;
-  msg.orientation.w = 0.0;
-  msg.position.x = 0.0;
-  msg.position.y = -0.2654;
-  msg.position.z = 1.0;
+  msg.orientation.w = 1.0;
+  msg.position.x = -0.001;
+  msg.position.y = -0.265;
+  msg.position.z = 1.079;
   return msg;
 }();
+
+// auto const target_pose = []{
+//   geometry_msgs::msg::Pose msg;
+//   msg.orientation.w = 1.0;
+//   msg.position.x = -0.515;
+//   msg.position.y = -0.265;
+//   msg.position.z = 0.256;
+//   return msg;
+// }();
+
+// auto const target_pose = []{
+//   geometry_msgs::msg::Pose msg;
+//   msg.orientation.w = 1.0;
+//   msg.position.x = 0.5;
+//   msg.position.y = 0.3;
+//   msg.position.z = 0.3;
+//   return msg;
+// }();
 move_group_interface.setPoseTarget(target_pose);
 
     std::cout << "SetPoseTarget============================================================================================1" << std::endl;
