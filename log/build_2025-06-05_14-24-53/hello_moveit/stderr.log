@@ -1,0 +1,24 @@
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/test_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/test_node.cpp:68:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+   68 |     if (!controller_manager->wait_for_service(std::chrono::seconds(2))[01;31m[K [m[K[32m[K{[m[K
+      |                                                                       [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                       [32m[K;[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/test_node.cpp:70:7:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kelse[m[K’
+   70 |     } [01;31m[Kelse[m[K {
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/test_node.cpp:70:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kelse[m[K’
+   70 |     }[01;31m[K [m[K[32m[Kelse[m[K {
+      |      [01;31m[K^[m[K[32m[K~~~~[m[K
+      |      [32m[K)[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/test_node.cpp:68:8:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   68 |     if [01;36m[K([m[K!controller_manager->wait_for_service(std::chrono::seconds(2)) {
+      |        [01;36m[K^[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/test_node.cpp:79:41:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+   79 |     geometry_msgs::msg::Pose target_pose[01;35m[K;[m[K
+      |                                         [01;35m[K^[m[K
+[01m[K/home/UMRobotics/new_ws/src/hello_moveit/src/test_node.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+   80 |     [01;31m[Ktarget_pose[m[K.orientation.w = 1.0;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_node.dir/build.make:76: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

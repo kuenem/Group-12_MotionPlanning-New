@@ -1,0 +1,35 @@
+Robot: UR5e (The tablet is the polyscope)
+To use it:
+- Turn polyscope on (press buttom)
+- Power it on (bottom left red Power off)
+- Press "On" 
+- Press "Start"
+When everything is checked (green and checkmark) you can use the robot
+
+Manual use:
+- select Move tab top left 
+	- bottom right "Joint Position" you can controll the joints individually
+	- Top right "Tool Position" You see the tool position based on the view (Central Window Feature ("View", "Base" or "Tool")
+	Both can also be set to specific Value (e.g. tab on specific Position; tab on Value to change and insert Value; ok; hold 'Move robot to: New position"
+	- Middle column you can view the robot select the home position and align
+	- Top left Move the robot in it's axis (You change the coordinates of Tool to base)
+	- Bottom left rotate the axis
+	
+Connect to computer:
+- robot_setup.md
+
+
+To run our VERY fancy own package use the following commands:
+
+1: cd group12_ws/
+2: colcon build 
+3: source install/setup.bash
+4: ros2 launch my_robot_cell_description view_robot.launch.py
+
+
+
+ros2 launch ur_calibration calibration_correction.launch.py robot_ip:=192.168.1.5 target_filename:="${HOME}/new_ws/src/hello_moveit/config/my_robot_calibration.yaml"
+
+colcon build --packages-select hello_moveit
+
+ros2 launch hello_moveit full_system.launch.py

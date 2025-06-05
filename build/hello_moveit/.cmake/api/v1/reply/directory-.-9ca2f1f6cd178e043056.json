@@ -36,19 +36,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 26,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 29,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 46,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
@@ -248,6 +248,29 @@
 			{
 				"id" : "hello_moveit::@6890427a1f51a3e7e1df",
 				"index" : 0
+			},
+			"destination" : "lib/hello_moveit",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/hello_moveit",
+			"paths" : 
+			[
+				"test_node"
+			],
+			"targetId" : "test_node::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "test_node::@6890427a1f51a3e7e1df",
+				"index" : 2
 			},
 			"destination" : "lib/hello_moveit",
 			"type" : "cxxModuleBmi"

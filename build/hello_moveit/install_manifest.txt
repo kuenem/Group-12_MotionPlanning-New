@@ -1,5 +1,7 @@
 /home/UMRobotics/new_ws/install/hello_moveit/lib/hello_moveit/hello_moveit
+/home/UMRobotics/new_ws/install/hello_moveit/lib/hello_moveit/test_node
 /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit//launch/full_system.launch.py
+/home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit//launch/test.launch.py
 /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit//launch/hello_moveit.launch.py
 /home/UMRobotics/new_ws/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
 /home/UMRobotics/new_ws/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit

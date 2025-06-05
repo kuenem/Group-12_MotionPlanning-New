@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/UMRobotics/new_ws/build/hello_moveit
 
 # The main recursive "all" target.
 all: CMakeFiles/hello_moveit.dir/all
+all: CMakeFiles/test_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/hello_moveit_uninstall.dir/clean
 clean: CMakeFiles/hello_moveit.dir/clean
+clean: CMakeFiles/test_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ hello_moveit: CMakeFiles/hello_moveit.dir/rule
 CMakeFiles/hello_moveit.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moveit.dir/build.make CMakeFiles/hello_moveit.dir/clean
 .PHONY : CMakeFiles/hello_moveit.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_node.dir
+
+# All Build rule for target.
+CMakeFiles/test_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/UMRobotics/new_ws/build/hello_moveit/CMakeFiles --progress-num=3,4 "Built target test_node"
+.PHONY : CMakeFiles/test_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/UMRobotics/new_ws/build/hello_moveit/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/UMRobotics/new_ws/build/hello_moveit/CMakeFiles 0
+.PHONY : CMakeFiles/test_node.dir/rule
+
+# Convenience name for target.
+test_node: CMakeFiles/test_node.dir/rule
+.PHONY : test_node
+
+# clean rule for target.
+CMakeFiles/test_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/clean
+.PHONY : CMakeFiles/test_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
