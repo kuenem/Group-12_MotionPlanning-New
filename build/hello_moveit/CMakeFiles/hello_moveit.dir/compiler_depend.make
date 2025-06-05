@@ -33,6 +33,10 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/constraints__struct.hpp \
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/constraints__traits.hpp \
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/display_robot_state__builder.hpp \
+  /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/display_robot_state__struct.hpp \
+  /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/display_robot_state__traits.hpp \
+  /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/display_robot_state__type_support.hpp \
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/grasp__builder.hpp \
@@ -89,6 +93,7 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
+  /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/display_robot_state.hpp \
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/grasp.hpp \
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/joint_limits.hpp \
   /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/motion_plan_request.hpp \
@@ -1685,6 +1690,10 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
+
 /opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h:
@@ -1723,9 +1732,9 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:
 
-/opt/ros/jazzy/include/rmw/rmw/domain_id.h:
-
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/domain_id.h:
 
 /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server.hpp:
 
@@ -1831,15 +1840,7 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:
-
-/usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/NumTraits.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp:
 
@@ -2137,9 +2138,9 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+/opt/ros/jazzy/include/rcl/rcl/publisher.h:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h:
+/usr/include/c++/13/bits/stl_tree.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
@@ -2157,15 +2158,11 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
 
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp:
-
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h:
 
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
 
-/opt/ros/jazzy/include/rcl/rcl/publisher.h:
-
-/usr/include/c++/13/bits/stl_tree.h:
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/display_robot_state__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp:
 
@@ -2183,10 +2180,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_options.hpp:
-
-/home/UMRobotics/new_ws/install/moveit_core/include/moveit_core/moveit/robot_model/prismatic_joint_model.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/impl/cpp/demangle.hpp:
@@ -2202,6 +2195,14 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
 
 /home/UMRobotics/new_ws/install/moveit_core/include/moveit_core/moveit/macros/declare_ptr.hpp:
+
+/usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/NumTraits.h:
+
+/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
 
 /usr/include/eigen3/Eigen/src/Core/Dot.h:
 
@@ -2261,7 +2262,15 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/c++/13/locale:
 
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/visibility_constraint__struct.hpp:
+
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/service.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_services_interface.hpp:
 
@@ -2275,17 +2284,17 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/c++/13/thread:
 
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp:
 
 /opt/ros/jazzy/include/rcl_action/rcl_action/action_server.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_options.hpp:
+
+/home/UMRobotics/new_ws/install/moveit_core/include/moveit_core/moveit/robot_model/prismatic_joint_model.hpp:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/display_robot_state.hpp:
 
 /home/UMRobotics/new_ws/install/moveit_core/include/moveit_core/moveit/robot_model/planar_joint_model.hpp:
 
@@ -2309,16 +2318,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
-/opt/ros/jazzy/include/rmw/rmw/discovery_options.h:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h:
-
-/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/context.h:
-
-/usr/include/eigen3/Eigen/src/Core/Stride.h:
-
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/generic_trajectory__struct.hpp:
 
 /usr/include/features.h:
@@ -2328,16 +2327,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/planning_options__struct.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h:
-
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/robot_state__builder.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
 
@@ -2359,11 +2348,33 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
 
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/macros.h:
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/move_it_error_codes__type_support.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/discovery_options.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/time.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp:
+
+/opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp:
+
+/usr/include/c++/13/cstddef:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
@@ -2379,19 +2390,23 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
+
 /home/UMRobotics/new_ws/install/moveit_core/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp:
 
 /usr/include/c++/13/iterator:
 
-/usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
-
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp:
-
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp:
 
 /usr/include/c++/13/bits/move.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/cartesian_point__struct.hpp:
 
@@ -2441,11 +2456,29 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h:
+
+/usr/include/boost/random/detail/large_arithmetic.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/domain_id.h:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/action/detail/execute_trajectory__traits.hpp:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp:
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/action/detail/move_group__traits.hpp:
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/action/detail/execute_trajectory__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
 /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp:
 
@@ -2463,7 +2496,11 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
 
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/action/detail/execute_trajectory__traits.hpp:
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/display_robot_state__traits.hpp:
+
+/usr/include/c++/13/ctime:
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/joint_constraint__struct.hpp:
 
@@ -2505,6 +2542,12 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/joint_limits__traits.hpp:
 
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/display_robot_state__builder.hpp:
+
+/usr/include/c++/13/algorithm:
+
+/opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_type_descriptions_interface.hpp:
@@ -2528,20 +2571,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/time.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp:
-
-/opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp:
-
-/usr/include/c++/13/cstddef:
-
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp:
 
 /usr/include/c++/13/deque:
 
@@ -2569,22 +2598,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/c++/13/debug/assertions.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h:
-
-/usr/include/boost/random/detail/large_arithmetic.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/domain_id.h:
-
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/gripper_translation__struct.hpp:
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/constraints.hpp:
@@ -2601,6 +2614,16 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/constraints__traits.hpp:
 
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/robot_state__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
+
+/usr/include/c++/13/ext/aligned_buffer.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
+
 /home/UMRobotics/new_ws/install/moveit_core/include/moveit_core/moveit/transforms/transforms.hpp:
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/planning_scene__struct.hpp:
@@ -2614,10 +2637,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/generic_trajectory__traits.hpp:
 
 /home/UMRobotics/new_ws/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.hpp:
-
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/move_it_error_codes__type_support.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
@@ -2731,6 +2750,12 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/visibility_control.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h:
+
+/home/UMRobotics/new_ws/install/moveit_core/include/moveit_core/moveit/utils/moveit_error_code.hpp:
+
 /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/position_constraint__struct.hpp:
@@ -2749,7 +2774,39 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp:
 
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp:
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/macros.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/context.h:
+
+/usr/include/eigen3/Eigen/src/Core/Stride.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h:
+
+/opt/ros/jazzy/include/rcl/rcl/logging_rosout.h:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/attached_collision_object__traits.hpp:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/grasp__type_support.hpp:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
 /opt/ros/jazzy/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -2765,6 +2822,14 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp:
 
+/opt/ros/jazzy/include/rcl/rcl/node.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h:
+
+/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
 
 /opt/ros/jazzy/include/rcutils/rcutils/sha256.h:
@@ -2772,18 +2837,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
 
 /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/attached_collision_object__traits.hpp:
-
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/grasp__type_support.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/logging_rosout.h:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp:
 
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/planner_interface_description__builder.hpp:
 
@@ -2803,13 +2856,17 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
 
 /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.hpp:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/object_color__struct.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/node_options.h:
+
+/opt/ros/jazzy/include/rcutils/rcutils/logging_macros.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
 
@@ -2844,24 +2901,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 /usr/include/c++/13/sstream:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
-
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/object_color__struct.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/logging_macros.h:
-
-/opt/ros/jazzy/include/rcl/rcl/node_options.h:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h:
-
-/opt/ros/jazzy/include/rcl/rcl/node.h:
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
@@ -2997,10 +3036,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/13/algorithm:
-
-/opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
 
 /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp:
@@ -3012,8 +3047,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 /opt/ros/jazzy/include/rcl_action/rcl_action/goal_handle.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/service.h:
 
 /opt/ros/jazzy/include/rmw/rmw/error_handling.h:
 
@@ -3099,9 +3132,9 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h:
 
-/opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h:
-
 /opt/ros/jazzy/include/rmw/rmw/features.h:
+
+/opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
 
@@ -3180,10 +3213,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 /home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
-
-/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/visibility_constraint__struct.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
 /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp:
 
@@ -3639,21 +3668,13 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/c++/13/bits/exception.h:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
-
-/opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h:
-
-/home/UMRobotics/new_ws/install/moveit_core/include/moveit_core/moveit/utils/moveit_error_code.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
-
 /usr/include/c++/13/bits/exception_defines.h:
 
 /usr/include/c++/13/bits/functional_hash.h:
 
 /usr/include/c++/13/bits/hashtable.h:
+
+/home/UMRobotics/moveit_ws/build/moveit_msgs/rosidl_generator_cpp/moveit_msgs/msg/detail/display_robot_state__type_support.hpp:
 
 /usr/include/c++/13/bits/ios_base.h:
 
@@ -3751,6 +3772,10 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/c++/13/bits/stl_deque.h:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/usr/include/c++/13/bits/stl_function.h:
+
 /usr/include/c++/13/bits/stl_numeric.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
@@ -3838,8 +3863,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 /usr/include/eigen3/Eigen/src/Core/Matrix.h:
 
 /usr/include/c++/13/cstring:
-
-/usr/include/c++/13/ctime:
 
 /usr/include/c++/13/cwchar:
 
@@ -3973,8 +3996,6 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 
 /usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
 
-/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
-
 /usr/include/c++/13/tr1/gamma.tcc:
 
 /usr/include/c++/13/streambuf:
@@ -4058,9 +4079,3 @@ CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o: /home/UMRobotics/new_ws/src/
 /usr/include/eigen3/Eigen/src/Core/Transpositions.h:
 
 /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
