@@ -1,4 +1,6 @@
 #include <memory>
+#include <tf2/LinearMath/Quaternion.h>
+// #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.hpp>
@@ -71,6 +73,9 @@ int main(int argc, char *argv[])
     move_group_interface.setMaxAccelerationScalingFactor(0.5);
 
     std::cout << "Activating the Conroller============================================================================================1" << std::endl;
+    
+    
+    
     // Activate the controller
     auto controller_manager = node->create_client<controller_manager_msgs::srv::SwitchController>(
         "/controller_manager/switch_controller");
@@ -96,75 +101,69 @@ int main(int argc, char *argv[])
         // }
     }
 
+    rclcpp::sleep_for(std::chrono::seconds(1));
 
 
-    auto const target_pose = []{
-      geometry_msgs::msg::Pose msg;
-      msg.orientation.w = 1.0;
-      msg.position.x = -0.515;
-      msg.position.y = -0.265;
-      msg.position.z = 0.256;
-      return msg;
-    }();
 
+    geometry_msgs::msg::Pose target_pose1;
+    
+    // Convert mm to meters for position
+    target_pose1.position.x = -0.460;  // -460 mm
+    target_pose1.position.y = -0.265;  // -265 mm
+    target_pose1.position.z = -0.131;  // -131 mm
 
-    std::cout << "SetTargetPose============================================================================================1" << std::endl;
+    // Convert Euler angles to quaternion (roll, pitch, yaw)
+    // tf2::Quaternion q;
+    // q.setRPY(0, 2.2, -2.189);  // RX=0, RY=2.2, RZ=-2.189
+    // target_pose1.orientation = tf2::toMsg(q);
 
-    move_group_interface.setPoseTarget(target_pose);
-
-    std::cout << "SetPoseTarget============================================================================================1" << std::endl;
-
-    // Create a plan to that target pose
-    auto const [success, plan] = [&move_group_interface]
-    {
+    // Set and execute first target
+    move_group_interface.setPoseTarget(target_pose1);
+    auto const [success1, plan1] = [&move_group_interface]{
         moveit::planning_interface::MoveGroupInterface::Plan msg;
         auto const ok = static_cast<bool>(move_group_interface.plan(msg));
         return std::make_pair(ok, msg);
     }();
 
-    // Print the planning result
-    if (success)
-    {
-        RCLCPP_INFO(logger, "Planning succeeded!");
-        std::cout << "Planning succeeded!============================================================================================1" << std::endl;
-    }
-    else
-    {
-        RCLCPP_ERROR(logger, "Planning failed!");
-        std::cout << "Planning failed!============================================================================================1" << std::endl;
+    if (!success1) {
+        RCLCPP_ERROR(logger, "First planning failed!");
         rclcpp::shutdown();
         return 1;
     }
-    // Print the plan details
-    std::cout << "Plan details:" << std::endl;
-    std::cout << "Start state: " << plan.start_state.joint_state.name.size() << " joints" << std::endl;
-    std::cout << "Trajectory: " << plan.trajectory.joint_trajectory.points.size() << " points" << std::endl;
-    std::cout << "Planning time: " << plan.planning_time << " seconds" << std::endl;
-    // Print the trajectory
-    std::cout << "Trajectory points:" << std::endl;
-    for (const auto &point : plan.trajectory.joint_trajectory.points)
-    {
-        std::cout << "  Time: " << point.time_from_start.sec << " seconds, Positions: ";
-        for (const auto &position : point.positions)
-        {
-            std::cout << position << " ";
-        }
-        std::cout << std::endl;
-    }
-    // Print the plan as a string
+    move_group_interface.execute(plan1);
+    RCLCPP_INFO(logger, "Reached first target position");
 
-    std::cout << "CreatedPlan============================================================================================1" << std::endl;
+    // ========================================================================
+    // SECOND MOTION (50 cm upward movement)
+    // ========================================================================
+    std::vector<geometry_msgs::msg::Pose> waypoints;
+    
+    // Start from current position
+    geometry_msgs::msg::Pose start_pose = move_group_interface.getCurrentPose().pose;
+    waypoints.push_back(start_pose);
+    
+    // Move 50 cm up in base frame (Z direction)
+    geometry_msgs::msg::Pose end_pose = start_pose;
+    end_pose.position.z += 0.50;  // 50 cm = 0.5 m
+    waypoints.push_back(end_pose);
 
-    // Execute the plan
-    if (success)
-    {
-        move_group_interface.execute(plan);
-        std::cout << "Success============================================================================================1" << std::endl;
+    // Generate Cartesian path
+    moveit_msgs::msg::RobotTrajectory trajectory;
+    const double jump_threshold = 0.0;  // Disable jump checking
+    const double eef_step = 0.01;       // 1 cm resolution
+    double fraction = move_group_interface.computeCartesianPath(
+        waypoints, eef_step, jump_threshold, trajectory);
+    
+    RCLCPP_INFO(logger, "Cartesian path: %.2f%% achieved", fraction * 100.0);
+    
+    if (fraction < 0.9) {
+        RCLCPP_ERROR(logger, "Cartesian path planning failed");
+        rclcpp::shutdown();
+        return 1;
     }
-    else
-    {
-        RCLCPP_ERROR(logger, "Planning failed!");
-    }
+
+    move_group_interface.execute(trajectory);
+    RCLCPP_INFO(logger, "Reached second target position (50 cm upward movement)");
 
     // Shutdown ROS
     std::cout << "Im============================================================================================1" << std::endl;

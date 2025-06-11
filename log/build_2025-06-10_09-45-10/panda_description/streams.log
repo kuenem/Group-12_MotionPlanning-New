@@ -1,0 +1,2 @@
+[0.194s] Invoking command in '/home/UMRobotics/new_ws/build/panda_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/panda_description -- -j16 -l16
+[0.255s] Invoked command in '/home/UMRobotics/new_ws/build/panda_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/panda_description -- -j16 -l16

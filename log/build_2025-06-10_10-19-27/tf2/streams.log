@@ -1,0 +1,138 @@
+[0.058s] Invoking command in '/home/UMRobotics/new_ws/build/tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/UMRobotics/new_ws/src/geometry2/tf2 -DCMAKE_INSTALL_PREFIX=/home/UMRobotics/new_ws/install/tf2
+[0.277s] -- The C compiler identification is GNU 13.3.0
+[0.277s] -- The CXX compiler identification is GNU 13.3.0
+[0.278s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.376s] -- Detecting CXX compile features - done
+[0.383s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.564s] -- Found Python3: /home/UMRobotics/.local/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.668s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.719s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.730s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.758s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.805s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.838s] -- Found ament_cmake_google_benchmark: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_google_benchmark/cmake)
+[0.843s] -- Found ament_cmake_copyright: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+[0.847s] -- Found ament_cmake_cppcheck: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[0.851s] -- Found ament_cmake_cpplint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[0.855s] -- Found ament_cmake_lint_cmake: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+[0.859s] -- Found ament_cmake_uncrustify: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[0.864s] -- Found ament_cmake_xmllint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+[0.876s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.954s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.954s] -- Found Threads: TRUE  
+[0.958s] -- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+[1.031s] -- Configuring done (1.0s)
+[1.046s] -- Generating done (0.0s)
+[1.051s] -- Build files have been written to: /home/UMRobotics/new_ws/build/tf2
+[1.056s] Invoked command in '/home/UMRobotics/new_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/UMRobotics/new_ws/src/geometry2/tf2 -DCMAKE_INSTALL_PREFIX=/home/UMRobotics/new_ws/install/tf2
+[1.056s] Invoking command in '/home/UMRobotics/new_ws/build/tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/tf2 -- -j16 -l16
+[1.096s] [ 19%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/buffer_core.cpp.o[0m
+[1.097s] [ 19%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/time.cpp.o[0m
+[1.097s] [ 19%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/cache.cpp.o[0m
+[1.097s] [ 19%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.097s] [ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.098s] [ 28%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/static_cache.cpp.o[0m
+[1.782s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.833s] [ 33%] Built target gtest_main
+[2.345s] [ 38%] [32m[1mLinking CXX shared library libtf2.so[0m
+[2.424s] [ 38%] Built target tf2
+[2.441s] [ 42%] [32mBuilding CXX object CMakeFiles/cache_benchmark.dir/test/cache_benchmark.cpp.o[0m
+[3.002s] [ 47%] [32m[1mLinking CXX executable cache_benchmark[0m
+[3.075s] [ 47%] Built target cache_benchmark
+[4.076s] [ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.148s] [ 52%] Built target gtest
+[4.168s] [ 66%] [32mBuilding CXX object CMakeFiles/test_storage.dir/test/test_storage.cpp.o[0m
+[4.168s] [ 66%] [32mBuilding CXX object CMakeFiles/test_cache_unittest.dir/test/cache_unittest.cpp.o[0m
+[4.169s] [ 66%] [32mBuilding CXX object CMakeFiles/test_static_cache_unittest.dir/test/static_cache_test.cpp.o[0m
+[4.169s] [ 71%] [32mBuilding CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o[0m
+[4.169s] [ 76%] [32mBuilding CXX object CMakeFiles/test_simple_tf2_core.dir/test/simple_tf2_core.cpp.o[0m
+[5.383s] [ 80%] [32m[1mLinking CXX executable test_storage[0m
+[5.518s] [ 85%] [32m[1mLinking CXX executable test_static_cache_unittest[0m
+[5.683s] [ 90%] [32m[1mLinking CXX executable test_time[0m
+[5.731s] [ 90%] Built target test_storage
+[5.797s] [ 90%] Built target test_static_cache_unittest
+[5.904s] [ 90%] Built target test_time
+[5.915s] [ 95%] [32m[1mLinking CXX executable test_cache_unittest[0m
+[6.063s] [100%] [32m[1mLinking CXX executable test_simple_tf2_core[0m
+[6.069s] [100%] Built target test_cache_unittest
+[6.157s] [100%] Built target test_simple_tf2_core
+[6.166s] Invoked command in '/home/UMRobotics/new_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/tf2 -- -j16 -l16
+[6.166s] Invoking command in '/home/UMRobotics/new_ws/build/tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/UMRobotics/new_ws/build/tf2
+[6.173s] -- Install configuration: ""
+[6.173s] -- Installing: /home/UMRobotics/new_ws/install/tf2/lib/libtf2.so
+[6.174s] -- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/tf2/lib/libtf2.so" to ""
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/time_cache.h
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/utils.hpp
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/visibility_control.h
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/utils.h
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/buffer_core.h
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/impl
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/impl/utils.hpp
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/impl/utils.h
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/impl/convert.hpp
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/impl/convert.h
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/convert.hpp
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/time.hpp
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/buffer_core.hpp
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/transform_datatypes.hpp
+[6.174s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/buffer_core_interface.hpp
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/transform_storage.h
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/transform_storage.hpp
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/exceptions.h
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/exceptions.hpp
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/Quaternion.h
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/Transform.hpp
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/MinMax.hpp
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/Vector3.h
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/QuadWord.hpp
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/Matrix3x3.h
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/Transform.h
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/Scalar.hpp
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/Quaternion.hpp
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/Matrix3x3.hpp
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/MinMax.h
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/Vector3.hpp
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/QuadWord.h
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/LinearMath/Scalar.h
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/buffer_core_interface.h
+[6.175s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/time_cache.hpp
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/transform_datatypes.h
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/convert.h
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/include/tf2/tf2/time.h
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/environment/library_path.sh
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/environment/library_path.dsv
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/ament_index/resource_index/package_run_dependencies/tf2
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/ament_index/resource_index/parent_prefix_path/tf2
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/environment/ament_prefix_path.sh
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/environment/ament_prefix_path.dsv
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/environment/path.sh
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/environment/path.dsv
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/local_setup.bash
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/local_setup.sh
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/local_setup.zsh
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/local_setup.dsv
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/package.dsv
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/ament_index/resource_index/packages/tf2
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/cmake/export_tf2Export.cmake
+[6.176s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/cmake/export_tf2Export-noconfig.cmake
+[6.177s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.177s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.177s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/cmake/ament_cmake_export_libraries-extras.cmake
+[6.177s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/cmake/ament_cmake_export_targets-extras.cmake
+[6.177s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/cmake/tf2Config.cmake
+[6.177s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/cmake/tf2Config-version.cmake
+[6.177s] -- Installing: /home/UMRobotics/new_ws/install/tf2/share/tf2/package.xml
+[6.178s] Invoked command in '/home/UMRobotics/new_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/UMRobotics/moveit_ws/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/UMRobotics/new_ws/build/tf2

@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(controller_manager_msgs REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 
 add_executable(hello_moveit src/hello_moveit.cpp)
 target_include_directories(hello_moveit PUBLIC
@@ -21,7 +22,9 @@ ament_target_dependencies(
   "controller_manager_msgs"
   "moveit_ros_planning_interface"
   "rclcpp"
+  "tf2_geometry_msgs"
 )
+
 
 add_executable(test_node src/test_node.cpp)
 target_include_directories(test_node PUBLIC
@@ -33,7 +36,10 @@ ament_target_dependencies(
   "controller_manager_msgs"
   "moveit_ros_planning_interface"
   "rclcpp"
+  "tf2_geometry_msgs"
 )
+
+
 
 
 install(TARGETS hello_moveit test_node

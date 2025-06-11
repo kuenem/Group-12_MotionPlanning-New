@@ -18,6 +18,21 @@ Manual use:
 Connect to computer:
 - robot_setup.md
 
+We use ROS2 jazzy
+
+For simpler movements you can use the ur_robot_driver package with the corresponding launch file using the following command:
+
+```console
+ros2 launch ur_robot_driver test_scaled_joint_trajectory_controller.launch.py
+```
+
+To adapt the movements to your likeing change the corresponding test_goal_publishers_config.yaml therefore you need the angles from each joint.
+
+
+For more advanced motion planning with moveit you need to build your own package with a self written node in it. The normal moveit installation was broken for us and caused quite some headache so we installed it from source into our workspace.
+
+moveit_controllers.yaml
+  execution_duration_monitoring: false # May lead to unexpectedly aborted goals with scaled JTC
 
 To run our VERY fancy own package use the following commands:
 
@@ -33,3 +48,99 @@ ros2 launch ur_calibration calibration_correction.launch.py robot_ip:=192.168.1.
 colcon build --packages-select hello_moveit
 
 ros2 launch hello_moveit full_system.launch.py
+
+
+[hello_moveit-10] Plan details:
+[hello_moveit-10] Start state: 6 joints
+[hello_moveit-10] Trajectory: 89 points
+[hello_moveit-10] Planning time: 0.0806821 seconds
+[hello_moveit-10] Trajectory points:
+[hello_moveit-10]   Time: 0 seconds, Positions: 0.00243748 -1.5664 0.00166065 -1.57729 0.00741857 -0.00283891 
+[hello_moveit-10]   Time: 0 seconds, Positions: -0.00503699 -1.56961 -0.00283192 -1.56939 -0.00508143 -0.00771917 
+[hello_moveit-10]   Time: 0 seconds, Positions: -0.0274604 -1.57925 -0.0163096 -1.54569 -0.0425814 -0.0223599 
+[hello_moveit-10]   Time: 0 seconds, Positions: -0.0630619 -1.59454 -0.0377081 -1.50807 -0.10212 -0.045605 
+[hello_moveit-10]   Time: 0 seconds, Positions: -0.100633 -1.61069 -0.0602902 -1.46835 -0.164952 -0.0701358 
+[hello_moveit-10]   Time: 0 seconds, Positions: -0.138203 -1.62683 -0.0828724 -1.42864 -0.227784 -0.0946667 
+[hello_moveit-10]   Time: 0 seconds, Positions: -0.175774 -1.64297 -0.105455 -1.38893 -0.290615 -0.119198 
+[hello_moveit-10]   Time: 0 seconds, Positions: -0.213345 -1.65911 -0.128037 -1.34922 -0.353447 -0.143728 
+[hello_moveit-10]   Time: 0 seconds, Positions: -0.250916 -1.67525 -0.150619 -1.30951 -0.416279 -0.168259 
+[hello_moveit-10]   Time: 0 seconds, Positions: -0.288487 -1.6914 -0.173201 -1.2698 -0.479111 -0.19279 
+[hello_moveit-10]   Time: 1 seconds, Positions: -0.326057 -1.70754 -0.195783 -1.23009 -0.541943 -0.217321 
+[hello_moveit-10]   Time: 1 seconds, Positions: -0.363628 -1.72368 -0.218365 -1.19038 -0.604775 -0.241852 
+[hello_moveit-10]   Time: 1 seconds, Positions: -0.401199 -1.73982 -0.240947 -1.15067 -0.667607 -0.266383 
+[hello_moveit-10]   Time: 1 seconds, Positions: -0.43877 -1.75597 -0.263529 -1.11096 -0.730438 -0.290913 
+[hello_moveit-10]   Time: 1 seconds, Positions: -0.47634 -1.77211 -0.286112 -1.07125 -0.79327 -0.315444 
+[hello_moveit-10]   Time: 1 seconds, Positions: -0.513911 -1.78825 -0.308694 -1.03154 -0.856102 -0.339975 
+[hello_moveit-10]   Time: 1 seconds, Positions: -0.551482 -1.80439 -0.331276 -0.991832 -0.918934 -0.364506 
+[hello_moveit-10]   Time: 1 seconds, Positions: -0.589053 -1.82054 -0.353858 -0.952121 -0.981766 -0.389037 
+[hello_moveit-10]   Time: 1 seconds, Positions: -0.626624 -1.83668 -0.37644 -0.912411 -1.0446 -0.413568 
+[hello_moveit-10]   Time: 1 seconds, Positions: -0.664194 -1.85282 -0.399022 -0.872701 -1.10743 -0.438099 
+[hello_moveit-10]   Time: 2 seconds, Positions: -0.701765 -1.86896 -0.421604 -0.832991 -1.17026 -0.462629 
+[hello_moveit-10]   Time: 2 seconds, Positions: -0.739336 -1.8851 -0.444187 -0.79328 -1.23309 -0.48716 
+[hello_moveit-10]   Time: 2 seconds, Positions: -0.776907 -1.90125 -0.466769 -0.75357 -1.29593 -0.511691 
+[hello_moveit-10]   Time: 2 seconds, Positions: -0.814477 -1.91739 -0.489351 -0.71386 -1.35876 -0.536222 
+[hello_moveit-10]   Time: 2 seconds, Positions: -0.852048 -1.93353 -0.511933 -0.674149 -1.42159 -0.560753 
+[hello_moveit-10]   Time: 2 seconds, Positions: -0.889619 -1.94967 -0.534515 -0.634439 -1.48442 -0.585284 
+[hello_moveit-10]   Time: 2 seconds, Positions: -0.92719 -1.96582 -0.557097 -0.594729 -1.54725 -0.609815 
+[hello_moveit-10]   Time: 2 seconds, Positions: -0.964761 -1.98196 -0.579679 -0.555019 -1.61008 -0.634345 
+[hello_moveit-10]   Time: 2 seconds, Positions: -1.00233 -1.9981 -0.602261 -0.515308 -1.67292 -0.658876 
+[hello_moveit-10]   Time: 2 seconds, Positions: -1.0399 -2.01424 -0.624844 -0.475598 -1.73575 -0.683407 
+[hello_moveit-10]   Time: 3 seconds, Positions: -1.07747 -2.03038 -0.647426 -0.435888 -1.79858 -0.707938 
+[hello_moveit-10]   Time: 3 seconds, Positions: -1.11504 -2.04653 -0.670008 -0.396178 -1.86141 -0.732469 
+[hello_moveit-10]   Time: 3 seconds, Positions: -1.15261 -2.06267 -0.69259 -0.356467 -1.92424 -0.757 
+[hello_moveit-10]   Time: 3 seconds, Positions: -1.19019 -2.07881 -0.715172 -0.316757 -1.98708 -0.78153 
+[hello_moveit-10]   Time: 3 seconds, Positions: -1.22776 -2.09495 -0.737754 -0.277047 -2.04991 -0.806061 
+[hello_moveit-10]   Time: 3 seconds, Positions: -1.26533 -2.1111 -0.760336 -0.237336 -2.11274 -0.830592 
+[hello_moveit-10]   Time: 3 seconds, Positions: -1.3029 -2.12724 -0.782919 -0.197626 -2.17557 -0.855123 
+[hello_moveit-10]   Time: 3 seconds, Positions: -1.34047 -2.14338 -0.805501 -0.157916 -2.2384 -0.879654 
+[hello_moveit-10]   Time: 3 seconds, Positions: -1.37804 -2.15952 -0.828083 -0.118206 -2.30123 -0.904185 
+[hello_moveit-10]   Time: 3 seconds, Positions: -1.41561 -2.17566 -0.850665 -0.0784954 -2.36407 -0.928716 
+[hello_moveit-10]   Time: 4 seconds, Positions: -1.45318 -2.19181 -0.873247 -0.0387851 -2.4269 -0.953246 
+[hello_moveit-10]   Time: 4 seconds, Positions: -1.49075 -2.20795 -0.895829 0.000925198 -2.48973 -0.977777 
+[hello_moveit-10]   Time: 4 seconds, Positions: -1.52832 -2.22409 -0.918411 0.0406355 -2.55256 -1.00231 
+[hello_moveit-10]   Time: 4 seconds, Positions: -1.56589 -2.24023 -0.940993 0.0803457 -2.61539 -1.02684 
+[hello_moveit-10]   Time: 4 seconds, Positions: -1.60346 -2.25638 -0.963576 0.120056 -2.67823 -1.05137 
+[hello_moveit-10]   Time: 4 seconds, Positions: -1.64103 -2.27252 -0.986158 0.159766 -2.74106 -1.0759 
+[hello_moveit-10]   Time: 4 seconds, Positions: -1.67861 -2.28866 -1.00874 0.199477 -2.80389 -1.10043 
+[hello_moveit-10]   Time: 4 seconds, Positions: -1.71618 -2.3048 -1.03132 0.239187 -2.86672 -1.12496 
+[hello_moveit-10]   Time: 4 seconds, Positions: -1.75375 -2.32094 -1.0539 0.278897 -2.92955 -1.14949 
+[hello_moveit-10]   Time: 4 seconds, Positions: -1.79132 -2.33709 -1.07649 0.318607 -2.99239 -1.17402 
+[hello_moveit-10]   Time: 5 seconds, Positions: -1.82889 -2.35323 -1.09907 0.358318 -3.05522 -1.19855 
+[hello_moveit-10]   Time: 5 seconds, Positions: -1.86646 -2.36937 -1.12165 0.398028 -3.11805 -1.22309 
+[hello_moveit-10]   Time: 5 seconds, Positions: -1.90403 -2.38551 -1.14423 0.437738 -3.18088 -1.24762 
+[hello_moveit-10]   Time: 5 seconds, Positions: -1.9416 -2.40166 -1.16681 0.477448 -3.24371 -1.27215 
+[hello_moveit-10]   Time: 5 seconds, Positions: -1.97917 -2.4178 -1.1894 0.517159 -3.30654 -1.29668 
+[hello_moveit-10]   Time: 5 seconds, Positions: -2.01674 -2.43394 -1.21198 0.556869 -3.36938 -1.32121 
+[hello_moveit-10]   Time: 5 seconds, Positions: -2.05431 -2.45008 -1.23456 0.596579 -3.43221 -1.34574 
+[hello_moveit-10]   Time: 5 seconds, Positions: -2.09188 -2.46623 -1.25714 0.63629 -3.49504 -1.37027 
+[hello_moveit-10]   Time: 5 seconds, Positions: -2.12945 -2.48237 -1.27973 0.676 -3.55787 -1.3948 
+[hello_moveit-10]   Time: 5 seconds, Positions: -2.16703 -2.49851 -1.30231 0.71571 -3.6207 -1.41933 
+[hello_moveit-10]   Time: 6 seconds, Positions: -2.2046 -2.51465 -1.32489 0.75542 -3.68354 -1.44386 
+[hello_moveit-10]   Time: 6 seconds, Positions: -2.24217 -2.53079 -1.34747 0.795131 -3.74637 -1.46839 
+[hello_moveit-10]   Time: 6 seconds, Positions: -2.27911 -2.5465 -1.36971 0.836124 -3.8092 -1.49361 
+[hello_moveit-10]   Time: 6 seconds, Positions: -2.30898 -2.55734 -1.38804 0.891351 -3.87187 -1.52647 
+[hello_moveit-10]   Time: 6 seconds, Positions: -2.32519 -2.56046 -1.39852 0.954183 -3.92355 -1.56285 
+[hello_moveit-10]   Time: 6 seconds, Positions: -2.32961 -2.55746 -1.4021 1.01702 -3.96222 -1.59856 
+[hello_moveit-10]   Time: 6 seconds, Positions: -2.3313 -2.55304 -1.4041 1.07985 -3.99788 -1.63412 
+[hello_moveit-10]   Time: 6 seconds, Positions: -2.33299 -2.54863 -1.40609 1.14268 -4.03353 -1.66968 
+[hello_moveit-10]   Time: 6 seconds, Positions: -2.33469 -2.54422 -1.40809 1.20551 -4.06919 -1.70524 
+[hello_moveit-10]   Time: 6 seconds, Positions: -2.33638 -2.5398 -1.41008 1.26834 -4.10485 -1.7408 
+[hello_moveit-10]   Time: 7 seconds, Positions: -2.33807 -2.53539 -1.41208 1.33117 -4.1405 -1.77636 
+[hello_moveit-10]   Time: 7 seconds, Positions: -2.33976 -2.53097 -1.41407 1.39401 -4.17616 -1.81192 
+[hello_moveit-10]   Time: 7 seconds, Positions: -2.34146 -2.52656 -1.41607 1.45684 -4.21182 -1.84748 
+[hello_moveit-10]   Time: 7 seconds, Positions: -2.34315 -2.52215 -1.41806 1.51967 -4.24747 -1.88304 
+[hello_moveit-10]   Time: 7 seconds, Positions: -2.34484 -2.51773 -1.42006 1.5825 -4.28313 -1.9186 
+[hello_moveit-10]   Time: 7 seconds, Positions: -2.34654 -2.51332 -1.42205 1.64533 -4.31879 -1.95416 
+[hello_moveit-10]   Time: 7 seconds, Positions: -2.34823 -2.50891 -1.42405 1.70817 -4.35444 -1.98972 
+[hello_moveit-10]   Time: 7 seconds, Positions: -2.34992 -2.50449 -1.42604 1.771 -4.3901 -2.02528 
+[hello_moveit-10]   Time: 7 seconds, Positions: -2.35161 -2.50008 -1.42804 1.83383 -4.42576 -2.06084 
+[hello_moveit-10]   Time: 7 seconds, Positions: -2.35331 -2.49566 -1.43003 1.89666 -4.46141 -2.0964 
+[hello_moveit-10]   Time: 8 seconds, Positions: -2.355 -2.49125 -1.43202 1.95949 -4.49707 -2.13196 
+[hello_moveit-10]   Time: 8 seconds, Positions: -2.35669 -2.48684 -1.43402 2.02232 -4.53273 -2.16751 
+[hello_moveit-10]   Time: 8 seconds, Positions: -2.35839 -2.48242 -1.43601 2.08516 -4.56839 -2.20307 
+[hello_moveit-10]   Time: 8 seconds, Positions: -2.36008 -2.47801 -1.43801 2.14799 -4.60404 -2.23863 
+[hello_moveit-10]   Time: 8 seconds, Positions: -2.36177 -2.47359 -1.44 2.21082 -4.6397 -2.27419 
+[hello_moveit-10]   Time: 8 seconds, Positions: -2.36345 -2.46922 -1.44198 2.27305 -4.67501 -2.30941 
+[hello_moveit-10]   Time: 8 seconds, Positions: -2.36466 -2.46607 -1.4434 2.31789 -4.70046 -2.33479 
+[hello_moveit-10]   Time: 8 seconds, Positions: -2.36519 -2.46468 -1.44403 2.33773 -4.71172 -2.34602 
+[hello_moveit-10]   Time: 8 seconds, Positions: -2.36522 -2.4646 -1.44407 2.33881 -4.71233 -2.34663

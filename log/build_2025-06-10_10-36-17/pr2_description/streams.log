@@ -1,0 +1,2 @@
+[0.229s] Invoking command in '/home/UMRobotics/new_ws/build/pr2_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/pr2_description -- -j16 -l16
+[0.294s] Invoked command in '/home/UMRobotics/new_ws/build/pr2_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/pr2_description -- -j16 -l16

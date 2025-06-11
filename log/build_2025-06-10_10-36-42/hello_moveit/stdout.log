@@ -1,0 +1,28 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[ 75%] Built target hello_moveit
+[100%] [32m[1mLinking CXX executable test_node[0m
+[100%] Built target test_node
+-- Install configuration: ""
+-- Installing: /home/UMRobotics/new_ws/install/hello_moveit/lib/hello_moveit/hello_moveit
+-- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""
+-- Installing: /home/UMRobotics/new_ws/install/hello_moveit/lib/hello_moveit/test_node
+-- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/hello_moveit/lib/hello_moveit/test_node" to ""
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit//launch
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit//launch/full_system.launch.py
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit//launch/test.launch.py
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit//launch/hello_moveit.launch.py
+-- Installing: /home/UMRobotics/new_ws/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+-- Installing: /home/UMRobotics/new_ws/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/environment/path.sh
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/environment/path.dsv
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/local_setup.bash
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/local_setup.sh
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/local_setup.zsh
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/local_setup.dsv
+-- Installing: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/package.dsv
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+-- Up-to-date: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+-- Installing: /home/UMRobotics/new_ws/install/hello_moveit/share/hello_moveit/package.xml

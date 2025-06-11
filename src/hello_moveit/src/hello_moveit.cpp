@@ -178,14 +178,14 @@ int main(int argc, char *argv[])
     //     msg.orientation.w = 1.0;
     //     msg.position.x = -0.001;
     //     msg.position.y = -0.265;
-    //     msg.position.z = 1.079;
+    //     msg.position.z = 1.000;
     //     return msg;
     // }();
 
     auto const target_pose = []{
       geometry_msgs::msg::Pose msg;
       msg.orientation.w = 1.0;
-      msg.position.x = -0.515;
+      msg.position.x = -0.460;
       msg.position.y = -0.265;
       msg.position.z = 0.256;
       return msg;

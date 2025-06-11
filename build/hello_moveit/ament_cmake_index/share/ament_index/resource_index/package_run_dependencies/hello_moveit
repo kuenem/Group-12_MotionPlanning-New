@@ -1,1 +1,1 @@
-moveit_ros_planning_interface;rclcpp;controller_manager_msgs;moveit_kinematics;ament_lint_auto;ament_lint_common
+moveit_ros_planning_interface;rclcpp;controller_manager_msgs;tf2_geometry_msgs;moveit_kinematics;ament_lint_auto;ament_lint_common

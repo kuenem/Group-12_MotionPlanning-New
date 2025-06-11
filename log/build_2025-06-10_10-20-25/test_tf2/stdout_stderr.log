@@ -1,0 +1,33 @@
+[ 10%] Built target gtest_main
+[ 20%] Built target gtest
+[ 30%] Built target test_buffer_server
+[ 50%] Built target test_static_publisher
+[ 50%] Built target test_tf2_bullet
+[ 60%] Built target buffer_core_test
+[ 70%] Built target test_message_filter
+[ 80%] Built target test_utils
+[ 90%] Built target test_convert
+[100%] Built target test_buffer_client
+-- Install configuration: ""
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/lib/test_tf2/test_buffer_client
+-- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/test_tf2/lib/test_tf2/test_buffer_client" to ""
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/lib/test_tf2/test_buffer_server
+-- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/test_tf2/lib/test_tf2/test_buffer_server" to ""
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/lib/test_tf2/test_static_publisher
+-- Set non-toolchain portion of runtime path of "/home/UMRobotics/new_ws/install/test_tf2/lib/test_tf2/test_static_publisher" to ""
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/lib/test_tf2/test_buffer_client.py
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/ament_index/resource_index/package_run_dependencies/test_tf2
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/ament_index/resource_index/parent_prefix_path/test_tf2
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/environment/ament_prefix_path.sh
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/environment/ament_prefix_path.dsv
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/environment/path.sh
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/environment/path.dsv
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/local_setup.bash
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/local_setup.sh
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/local_setup.zsh
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/local_setup.dsv
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/package.dsv
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/ament_index/resource_index/packages/test_tf2
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/cmake/test_tf2Config.cmake
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/cmake/test_tf2Config-version.cmake
+-- Installing: /home/UMRobotics/new_ws/install/test_tf2/share/test_tf2/package.xml

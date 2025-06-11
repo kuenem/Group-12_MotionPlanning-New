@@ -1,0 +1,2 @@
+[0.215s] Invoking command in '/home/UMRobotics/new_ws/build/moveit_resources': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/moveit_resources -- -j16 -l16
+[0.263s] Invoked command in '/home/UMRobotics/new_ws/build/moveit_resources' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/UMRobotics/new_ws/build/moveit_resources -- -j16 -l16
